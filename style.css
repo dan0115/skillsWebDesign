@@ -118,3 +118,12 @@ box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3,
   margin-top:200px;
 
 }
+footer{
+  background: rgb(233,190,10);
+    background: radial-gradient(circle, rgb(233,190,10) 5%, rgb(43,36,2) 100%);    color: #fff;
+  text-align:center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 50px;
+  color:black;
+}
