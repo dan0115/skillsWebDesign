@@ -111,6 +111,7 @@ li {
   width: 100%;
   margin-top: 200px;
 }
+
 footer {
   background: rgb(233, 190, 10);
   background: radial-gradient(circle, rgb(233, 190, 10) 5%, rgb(43, 36, 2) 100%);
@@ -129,16 +130,24 @@ footer {
   background-color: white;
   margin: 10px;
 }
+
 .nav {
   text-align: center;
   padding: 5px;
 }
-.nav a{
+
+.nav a {
   padding: 5px;
   text-decoration: none;
-  color:black;
+  color: black;
 }
+
 a:hover {
-  background-color: black; 
-color: white;}
-  
+  background-color: black;
+  color: white;
+}
+
+.schedule{
+  width: 100%;
+  height: auto;
+}
