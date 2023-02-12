@@ -31,8 +31,9 @@ header {
   nav a {
     color: #fff;
     text-decoration: none;
-    padding: 5px;
+    padding: 1px;
     font-size: 16px;
+    max-width:fit-content;
   }
   
 
