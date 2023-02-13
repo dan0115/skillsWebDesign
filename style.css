@@ -1,6 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: whitesmoke;
-
+  margin:0;
 
 }
 
@@ -84,18 +87,6 @@ li {
   border-radius: 20px;
 }
 
-.container {
-  text-align: justify;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: white;
-  width: 80%;
-  height: 80%;
-  padding: 5%;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
-}
-
 .logo {
   align-items: center;
   justify-content: center;
@@ -111,53 +102,50 @@ li {
   display: flex;
   width: 100%;
   margin-top: 200px;
+ 
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  background-color: bisque;
+}
+.row{ padding:10px;}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+p {
+  text-align:justify;
+}
+ h2 {
+  text-align:center;
+ }
+ hr{
+  width:50%;
+  border-width:10%;
+ }
 footer {
   background: rgb(233, 190, 10);
   background: radial-gradient(circle, rgb(233, 190, 10) 5%, rgb(43, 36, 2) 100%);
   color: #fff;
   text-align: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 100%;
   height: 50px;
   color: black;
   bottom: 0;
   left: 0;
-  right: 0;
-
-}
-
-.main-container {
-  background-color: black;
-  margin: 10px;
-  
-}
-
-.nav {
-  text-align: center;
-  padding: 5px;
-  background-color: rgb(173, 133, 31);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-}
-
-.nav a {
-  padding: 5px;
-  text-decoration: none;
-  color: black;
-  margin: 10px;
-  display:inline;
-  
-}
-
-a:hover {
-  background-color: black;
-  color: white;
-}
-
-.schedule{
-  width: 100%;
-  height: auto;
-}
-
+  right: 0; }
