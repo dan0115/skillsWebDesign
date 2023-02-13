@@ -104,30 +104,27 @@ li {
   margin-top: 200px;
  
 }
+
 .column {
   float: left;
+  padding: 10px;
+  margin-top:10px;
+  width:0;
+}
+
+/* Left and right column */
+.column.side {
   width: 25%;
-  padding: 15px;
-  background-color: rgb(248, 206, 20);
-  margin-right:4%;
+  background-color: rgb(224, 150, 11);
+  margin-right: 4%;
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
   border-radius: 5%;
 }
-.column2 {
-  float: left;
+
+/* Middle column */
+.column.middle {
   width: 25%;
-  padding: 15px;
-  background-color: rgb(219, 169, 5);
-  margin-right:4%;
-  margin-left: 4%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
-  border-radius: 5%;
-}
-.column3 {
-  float: left;
-  width: 25%;
-  padding: 15px;
   background-color: rgb(224, 150, 11);
   margin-right: 4%;
   margin-left: 4%;
@@ -142,9 +139,7 @@ li {
 }
 .column3:hover {
   box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
-}
-
-/* Clear floats after the columns */
+} 
 .row:after {
   content: "";
   display: table;
@@ -152,8 +147,8 @@ li {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width:600px) {
-  .column .column2 .column3 {
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
     width: 100%;
   }
 }
