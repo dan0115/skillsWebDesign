@@ -27,17 +27,14 @@ body {
 
 .form h2 {
     width: 230px;
-    font-family: fantasy;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 22px;
-    background-color: goldenrod;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
-    opacity: .5;
-    box-shadow: 0 4px 8px 0 rgba(15, 11, 0, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
-
+   
     
 
 }
@@ -121,3 +118,4 @@ img {
     box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
