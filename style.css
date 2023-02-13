@@ -1,5 +1,5 @@
 body {
-  background-color: #1f1919;
+  background-color: whitesmoke;
 
 
 }
@@ -54,6 +54,7 @@ nav a {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  border-radius: 5%;
 }
 
 .dropdown-content a {
@@ -122,12 +123,15 @@ footer {
   height: 50px;
   color: black;
   bottom: 0;
+  left: 0;
+  right: 0;
 
 }
 
 .main-container {
-  background-color: white;
+  background-color: black;
   margin: 10px;
+
 
   
 }
@@ -135,6 +139,9 @@ footer {
 .nav {
   text-align: center;
   padding: 5px;
+  background-color: rgb(173, 133, 31);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .nav a {
@@ -143,6 +150,7 @@ footer {
   color: black;
   margin: 10px;
   display:inline;
+  
 }
 
 a:hover {
@@ -154,3 +162,4 @@ a:hover {
   width: 100%;
   height: auto;
 }
+
