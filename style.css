@@ -109,7 +109,6 @@ li {
   float: left;
   padding: 10px;
   margin-top:10px;
-  width:0;
 }
 
 /* Left and right column */
@@ -120,6 +119,7 @@ li {
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
   border-radius: 5%;
+  
 }
 
 /* Middle column */
@@ -130,6 +130,7 @@ li {
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
   border-radius: 5%;
+  
 }
 .column:hover {
   box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
