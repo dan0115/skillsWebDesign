@@ -27,7 +27,8 @@ body {
 
 .form h2 {
     width: 230px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans Symbols', sans-serif;
+font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
     font-size: 22px;
@@ -66,7 +67,7 @@ body {
 .button {
     width: 240px;
     height: 40px;
-    background: goldenrod;
+    background: #daa520;
     border-radius: 10px;
     border: none;
     margin-top: 30px;
@@ -118,4 +119,4 @@ img {
     box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&family=Roboto&display=swap');
