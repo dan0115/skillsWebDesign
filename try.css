@@ -19,7 +19,7 @@ body {
 }
 
 .form {
-    background-color: black;
+    background-color: white;
     margin-left: 50%;
     margin-right: 50%;
     width: 250px;
@@ -38,7 +38,7 @@ body {
     font-family: 'Noto Sans Symbols', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: white;
+    color: black;
     font-size: 22px;
     border-radius: 10px;
     margin: 2px;
@@ -52,11 +52,11 @@ body {
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: white;
+    color: black;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
@@ -68,14 +68,14 @@ body {
 }
 
 ::placeholder {
-    color: white;
+    color: black;
     font-family: arial;
 }
 
 .button {
     width: 240px;
     height: 40px;
-    background: #daa520;
+    background: black;
     border-radius: 10px;
     border: none;
     margin-top: 30px;
@@ -83,15 +83,17 @@ body {
     font-family: fantasy;
     transition: 0.4s ease;
     opacity: .5;
-    box-shadow: 0 4px 8px 0 rgba(15, 11, 0, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
-
+    box-shadow: black;
+    color:white;
 
 }
 
 .button:hover {
-    background: goldenrod;
-    color: black;
+    background: black;
+    color: white;
     opacity: .9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
+
 }
 
 .button a {
@@ -100,7 +102,7 @@ body {
 }
 
 .button:hover a {
-    color: black;
+    color: white;
 }
 
 .form .link {
@@ -108,13 +110,13 @@ body {
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
-    color: white;
+    color: black;
     font-weight: bold;
 }
 
 .form .link a {
     text-decoration: none;
-    color: goldenrod;
+    color: gold;
 
 }
 
