@@ -18,11 +18,10 @@
                 <img src="pasoa.jpg" height="100px">
                 <h2>LOG IN</h2>
                 <hr>
-                <form>
-                    <input type="email" placeholder="Enter email here" required>
-                    <input type="password" placeholder="Enter your Password" required>
-                    <button type="submit" class="button"><a href="home.html">Sign in</a></button>
-                    <!-- <button class="button"><a href="home.html">Sign in</a></button> -->
+                <form method="GET" action="login.php">
+                    <input type="email" name="email" placeholder="Enter email here" required>
+                    <input type="password" name="password" placeholder="Enter your Password" required>
+                    <button type="submit" class="button">Sign in</button>
                     <p class="link"> Don't have an account<br>
                         <a href="#">Sign up </a>here</a>
                     </p>
