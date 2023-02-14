@@ -78,18 +78,29 @@ nav a {
 }
 
 li:hover {
-  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(240, 0, 0, 0.973), 0 6px 20px 0 rgba(255, 0, 0, 0.973);
+  
+
 }
 
 li {
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 20px; 
+  background-image:url(try3.jpg);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
+  margin: 10px;
+
 }
 
 .active {
-  background-color: black;
+  color:red;
+  font-size:15px;
+  font-weight: bold;
+ 
+  /* background-image:url(try3.jpg);
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 20px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973); */
 }
 
 .logo {
@@ -169,11 +180,11 @@ p {
 }
  h2 {
   text-align:center;
-  color:white;
-  text-shadow: 1px 1px 1px #919191,
-               1px 2px 1px #919191,
-               1px 3px 1px #919191,
-               1px 4px 1px #919191,
+  color:gold;
+  text-shadow: 1px 1px 1px goldenrod,
+               1px 2px 1px goldenrod,
+               1px 3px 1px goldenrod,
+               1px 4px 1px goldenrod,
                1px 20px 40px rgba(0, 0, 0, 0.3)
 
  }
