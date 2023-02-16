@@ -105,80 +105,41 @@ li {
     margin-top: 20px;
 }
 
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
-    .column.side,
-    .column.middle {
-        width: 100%;
-    }
+.main-container{
+    margin-top:250px;
+}
+.container{
+    margin-top: 20px;
+    padding:20px;
+    background-color: #fff;
+    margin-left:10%;
+    margin-right:10%;
+    border-radius: 2%;
+}
+.container h1,h4, h3{
+    text-align: center;
+}
+.container img{
+    text-align: center;
+    width: 100%;
+    height:auto;
+}
+.container p{
+    text-align: justify;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-    width: 100%;
 
-  }
-  
-  .row {
-    margin-top:200px;
-    
-  }
-
-  .row p {
-text-align: justify;  }
-  
-  /* Fake image */
-  .image {
-    width: 100%;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    
-  }
-  
-  
-  /* Add a card effect for articles */
-  .card {
-    background-image: url(try3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-    margin-top: 20px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.973), 0 6px 20px 0 rgba(255, 255, 255, 0.973);
-   
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .row h2,h5,p {
-    text-align: center;
-    color:white;
-  }
   
   /* Footer */
   .footer {
-    bottom:0;
+    
     padding: 20px;
     text-align: center;
     background: #ddd;
     margin-top: 20px;
   }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 200px) {
-    .leftcolumn  {   
-      width: 100%;
-      padding:0;
-    }
-  }
+ 
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
   @media screen and (max-width: 400px) {
