@@ -125,5 +125,15 @@ img {
     left: 100px;
     box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
+.change{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.change a {
+    text-decoration: none;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&family=Roboto&display=swap');
