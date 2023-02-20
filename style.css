@@ -41,10 +41,10 @@ nav ul {
 nav a {
   color: #fff;
   text-decoration: none;
-  padding: 1px;
-  font-size: 16px;
+  /* padding: 1px; */
+  font-size: 14px;
   max-width: min-content;
-}
+  font-family: 'Noto Sans Symbols', sans-serif; }
 
 
 .dropdown {
@@ -177,6 +177,7 @@ li {
 p {
   text-align:justify;
   color:white;
+  font-family: 'Noto Sans Symbols', sans-serif;
 }
  h2 {
   text-align:center;
