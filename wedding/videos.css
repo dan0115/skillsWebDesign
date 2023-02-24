@@ -19,7 +19,7 @@ height:auto;
 }
 .gallery {
     margin: 5px;
-    border: 100px solid rgb(233, 217, 186);
+    border: 50px solid rgb(233, 217, 186);
     width: 100%;
   
   }
@@ -35,7 +35,7 @@ height:auto;
     text-align: center;
     font-family: 'Zeyada', cursive;
     text-align:center;
-    font-size: 50px;
+    font-size: 20px;
   }
 footer {
     text-align: center;
