@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+ 
+
+}
+header{
+    background-image: url(/4c/360_F_280163743_Ux10gTObj9YdQU86pXK75KRgdJllQlPk.jpg);
+    background-size: cover;
+}
+.nav{ background: rgb(233, 190, 10);
+    background: radial-gradient(circle, rgb(233, 190, 10) 5%, rgb(43, 36, 2) 100%);
+height:auto;
+}
+.nav-item{
+    color:black ;
+}
+.gallery {
+    margin: 5px;
+    border: 100px solid #ccc;
+    width: 100%;
+  }
+  
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  .gallery video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+footer {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}

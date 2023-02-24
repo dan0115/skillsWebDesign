@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+ 
+
+}
+header{
+    background-image: url(/4c/360_F_280163743_Ux10gTObj9YdQU86pXK75KRgdJllQlPk.jpg);
+    background-size: cover;
+}
+.nav{ background: rgb(233, 190, 10);
+    background: radial-gradient(circle, rgb(233, 190, 10) 5%, rgb(43, 36, 2) 100%);
+height:auto;
+}
+h1, h2{
+    font-family: 'Zeyada', cursive;
+    text-align:center;
+    
+}
+.grid img{
+    height:200px;
+    display: inline;
+    width: 100%;
+  height: auto;
+  align-items:center;
+}
+footer {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+}
