@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin:0;
 }
 
 body {
@@ -118,6 +119,9 @@ li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
    
 }
+.container:hover {
+  box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
+}
 .container h1,h4, h3{
     text-align: center;
     font-family: 'Noto Sans Symbols', sans-serif;
@@ -135,14 +139,14 @@ li {
 
   
   /* Footer */
-  .footer {
-    
-    padding: 20px;
+  footer {
+    display: flex;
+    align-items: center;
     text-align: center;
-    background: #ddd;
-    margin-top: 20px;
+    justify-content: center;
+    background-color: black;
+    color:white;
   }
-  
  
   
   /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
