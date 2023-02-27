@@ -112,7 +112,7 @@ li {
 .container{
     margin-top: 20px;
     padding:20px;
-    background-color: #fff;
+    background-color: #312d2d;
     margin-left:10%;
     margin-right:10%;
     border-radius: 2%;
@@ -120,11 +120,12 @@ li {
    
 }
 .container:hover {
-  box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
+  box-shadow: 0 4px 8px 0 rgb(243, 237, 237), 0 4px 8px 0 rgb(235, 0, 0);
 }
 .container h1,h4, h3{
     text-align: center;
     font-family: 'Noto Sans Symbols', sans-serif;
+    color:white;
 }
 .container img{
     text-align: center;
@@ -134,8 +135,16 @@ li {
 .container p{
     text-align: justify;
     font-family: 'Noto Sans Symbols', sans-serif;
+    color:white;
 }
-
+.disabled li{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  .disabled a{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
 
   
   /* Footer */

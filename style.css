@@ -202,4 +202,11 @@ p {
   background-color: black;
   color:white;
 }
-
+.disabled li{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+.disabled a{
+  opacity: 0.6;
+  cursor: not-allowed;
+}
