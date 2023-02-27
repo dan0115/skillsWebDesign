@@ -62,6 +62,13 @@ body {
     margin-top: 30px;
     font-family: sans-serif;
 }
+.form input:hover {
+    border-bottom: 1px solid gold;
+    border-top: 1px solid gold;
+    border-right: 1px solid gold;
+    border-left: 1px solid gold; 
+    border-radius: 10px;
+}
 
 .form input:focus {
     outline: none;
@@ -107,7 +114,7 @@ body {
 
 .form .link {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
     padding-top: 20px;
     text-align: center;
     color: black;
