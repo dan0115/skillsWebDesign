@@ -112,7 +112,9 @@ li {
 .container{
     margin-top: 20px;
     padding:20px;
-    background-color: #312d2d;
+    background-image:url(try3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-left:10%;
     margin-right:10%;
     border-radius: 2%;
