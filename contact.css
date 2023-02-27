@@ -146,7 +146,7 @@ li {
 
 .contact-left p {
     margin-top: 35px;
-    color: white;
+    color: goldenrod;
 }
 
 .contact-left p i {
@@ -157,7 +157,7 @@ li {
 
 .contact-left_icons a {
     text-decoration: none;
-    color: white;
+    color: goldenrod;
     font-size: 30px;
     margin-right: 15px;
     display: inline-block;
@@ -178,13 +178,14 @@ li {
     border-radius: 6px;
     text-decoration: none;
 
-    color: white;
+    color: goldenrod;
     width: fit-content;
 
 }
 
 .contact-btn:hover {
     background-color: goldenrod;
+    color:white;
 }
 
 .contact-btn.contact-btn--1 {
@@ -228,7 +229,9 @@ form textarea {
     background-color: goldenrod;
     cursor: pointer;
 }
-
+.contact-left_icons a:nth-child(1) {
+    color: red;
+}
 .contact-left_icons a:nth-child(2) {
     color: #4267B2;
 }
