@@ -6,7 +6,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; */
 
-    
+
 
 
 }
@@ -72,7 +72,7 @@ body {
 }
 
 .button {
-    width: 240px;
+    width: 50%;
     height: 40px;
     background: #daa520;
     border-radius: 10px;
@@ -83,7 +83,10 @@ body {
     transition: 0.4s ease;
     opacity: .5;
     box-shadow: 0 4px 8px 0 rgba(15, 11, 0, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
-
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 
 }
 
@@ -91,6 +94,7 @@ body {
     background: goldenrod;
     color: black;
     opacity: .9;
+    width: 100%;
 }
 
 .button a {
@@ -125,7 +129,8 @@ img {
     left: 100px;
     box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
-.change{
+
+.change {
     text-align: center;
     align-items: center;
     justify-content: center;

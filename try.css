@@ -62,13 +62,7 @@ body {
     margin-top: 30px;
     font-family: sans-serif;
 }
-.form input:hover {
-    border-bottom: 1px solid gold;
-    border-top: 1px solid gold;
-    border-right: 1px solid gold;
-    border-left: 1px solid gold; 
-    border-radius: 10px;
-}
+
 
 .form input:focus {
     outline: none;
@@ -80,7 +74,7 @@ body {
 }
 
 .button {
-    width: 240px;
+    width: 50%;
     height: 40px;
     background: black;
     border-radius: 10px;
@@ -92,6 +86,11 @@ body {
     opacity: .5;
     box-shadow: black;
     color:white;
+    display: block;
+    margin:auto;
+    margin-top: 20px;
+
+
 
 }
 
@@ -100,7 +99,7 @@ body {
     color: white;
     opacity: .9;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
-
+width: 100%;
 }
 
 .button a {
