@@ -124,7 +124,7 @@ li {
 
 .contact {
     background-color: rgb(41, 39, 39);
-    height: 70vh;
+    height: 100vh;
     padding: 5%;
 }
 
@@ -236,14 +236,6 @@ form textarea {
     color: #4267B2;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
-    color: white;
-}
 .disabled li{
     opacity: 0.6;
     cursor: not-allowed;
@@ -251,6 +243,15 @@ footer {
   .disabled a{
     opacity: 0.6;
     cursor: not-allowed;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 0;
   }
   @media screen and (max-width: 600px) {
     h2{
