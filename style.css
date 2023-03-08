@@ -5,19 +5,62 @@ body {
   background: radial-gradient(circle, rgba(245, 168, 25, 0.664) 5%, rgb(43, 36, 2) 100%);
  
   margin:0;
- 
-
+}
+.navbar{
+  background-image:url(try3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-brand > img {
+  width: 75px;
+  height: 90px;
+  margin-right: 10px;
+  border-radius: 50%;
 }
 
-header {
+.navbar-brand, .nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+} 
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #88C232;
+  display: block;
+  margin: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+@media (max-width: 576px){
+  .nav-title {
+      font-size: .9rem;
+  }
+}
+/* header {
 
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  /* background: rgb(233, 190, 10);
-  background: radial-gradient(circle, rgb(233, 190, 10) 5%, rgb(43, 36, 2) 100%); */
-  color: #fff;
+ color: #fff;
   height: 200px;
   display: flex;
   align-items: center;
@@ -26,27 +69,27 @@ header {
   background-image:url(try3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 
 }
 
-nav ul {
+/* nav ul {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
   justify-content: center;
-}
+} */
 
-nav a {
+/* nav a {
   color: #fff;
   text-decoration: none;
   padding: 1px;
   font-size: 16px;
   max-width: min-content;
-}
+} */
 
-.dropdown {
+/* .dropdown {
   position: relative;
 }
 
@@ -94,12 +137,12 @@ li {
   color:red;
   font-size:15px;
   font-weight: bold;
- 
+  */
   /* background-image:url(try3.jpg);
   padding: 20px;
   border-radius: 20px; */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973); */
-}
+
 
 .logo {
   align-items: center;
@@ -107,7 +150,7 @@ li {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
   border-radius: 50%;
-  margin-top: 20px;
+  
 }
 
 .image {
@@ -115,19 +158,20 @@ li {
   justify-content: center;
   display: flex;
   width: 100%;
-  margin-top: 200px;
+  margin-top: 100px;
  
 }
 
-.column {
+.core {
   float: left;
   padding: 10px;
-  margin-top:10px;
+  margin-top: 5px;
   overflow: auto;
+
 }
 
 /* Left and right column */
-.column.side {
+.core.side {
   width: 25%;
   background-image:url(try3.jpg);
   margin-right: 4%;
@@ -141,7 +185,7 @@ li {
 }
 
 /* Middle column */
-.column.middle {
+.core.middle {
   width: 25%;
   background-image:url(try3.jpg);
  margin-right: 4%;
@@ -153,27 +197,31 @@ li {
   background-size: cover;
   
 }
-.column:hover {
+.core:hover {
   box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
 }
-.column2:hover {
-  box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
-}
-.column3:hover {
-  box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
-} 
+
 .row:after {
   content: "";
   display: table;
   clear: both;
   align-items: center;
 }
+.all{
+  height: 50vh;
+}
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column.side, .column.middle {
+  .core.side, .core.middle {
     width: auto;
+    margin: 20px;
   }
+  .all{
+    padding: 20px;
+    
+  }
+  
 }
 
 p {
@@ -213,8 +261,11 @@ p {
   background-repeat: no-repeat;
   overflow: auto;
   padding: 10px;
+ 
+
 
 }
+
 .gallery {
   margin: 5px;
   border: 1px solid #ccc;
@@ -225,11 +276,13 @@ p {
   margin-right: 4%;
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
- 
+ height: 400px;
   
-
- 
 }
+ 
+
+
+
 
 .gallery:hover {
   border: 1px solid #777;
@@ -255,4 +308,13 @@ p {
     justify-content: center;
     background-color: black;
     color:white;
+  }
+  @media screen and (max-width: 600px){ 
+    .gallery {
+      width:40%;
+   }
+ 
+  
+
+  
   }
