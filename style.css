@@ -38,7 +38,7 @@ body {
   content: '';
   width: 0%;
   height: 2px;
-  background: #88C232;
+  background: white;
   display: block;
   margin: auto;
   transition: 0.5s ease-in-out;
@@ -46,6 +46,15 @@ body {
 
 .nav-link:hover::after {
   width: 100%;
+}
+.nav-title-desktop {
+  font-size:20px;
+}
+.nav-title-mobile{
+  display:none;
+}
+.nav-title-tablet{
+  display: none;
 }
 
 
@@ -71,7 +80,6 @@ body {
   background-size: cover;
   background-attachment: fixed; */
 
-}
 
 /* nav ul {
   display: flex;
@@ -87,9 +95,9 @@ body {
   padding: 1px;
   font-size: 16px;
   max-width: min-content;
-} */
+} 
 
-/* .dropdown {
+ .dropdown {
   position: relative;
 }
 
@@ -171,7 +179,7 @@ li {
 }
 
 /* Left and right column */
-.core.side {
+.core {
   width: 25%;
   background-image:url(try3.jpg);
   margin-right: 4%;
@@ -184,19 +192,6 @@ li {
   
 }
 
-/* Middle column */
-.core.middle {
-  width: 25%;
-  background-image:url(try3.jpg);
- margin-right: 4%;
-  margin-left: 4%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
-  border-radius: 5%;
-  padding:20px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
 .core:hover {
   box-shadow: 0 4px 8px 0 rgb(235, 0, 0), 0 4px 8px 0 rgb(235, 0, 0);
 }
@@ -208,20 +203,7 @@ li {
   align-items: center;
 }
 .all{
-  height: 50vh;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .core.side, .core.middle {
-    width: auto;
-    margin: 20px;
-  }
-  .all{
-    padding: 20px;
-    
-  }
-  
+  height: 40vh;
 }
 
 p {
@@ -254,16 +236,16 @@ p {
   cursor: not-allowed;
 }
 .main-gallery{
-  height: 100vh;
+  height: 210vh;
   background-image: url(try3.jpg);
-  background-position: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: auto;
-  padding: 10px;
  
-
-
+  
+  padding: 10px;
+  margin-top: 1px;
+ 
 }
 
 .gallery {
@@ -276,7 +258,7 @@ p {
   margin-right: 4%;
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
- height: 400px;
+ height: 350px;
   
 }
  
@@ -297,24 +279,100 @@ p {
 }
 
 .desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+}
+  
 
   footer {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background-color: black;
+ text-align: center;
+    
     color:white;
+    height: 10vh;
   }
-  @media screen and (max-width: 600px){ 
+  .footer__para{
+    text-align: center;
+    padding-top: 5%;
+    color:white;
+    background-color: black;
+    height: 20vh;
+  }
+  /* .nav-item{
+    text-align: left !important;
+  }
+   */
+
+     /* -------------------BREAKPOINT TABLET MEDIA QUIRIES --------------------*/
+
+  @media (max-width: 768px){
+    .nav-title-tablet{
+      font-size:15px;
+      display: inline-block;
+      
+    }
+    .nav-title-desktop {
+     display: none;
+    }
+    .nav-title-mobile{
+      display: none;
+  }
+  .core {
+    width: auto;
+    margin: 20px;
+    display:block;
+  }
+  .main-gallery {
+   
+   
+    margin-top: 270px;
+    height: 220vh;
+    
+ }
+ 
+}
+/* -------------------BREAKPOINT PHONE MEDIA QUIRIES --------------------*/
+
+
+   @media (max-width: 600px){
     .gallery {
       width:40%;
    }
+
+   .main-gallery {
+    width:100%;
+    height:330vh;
+    margin-top: 330px;
+    background-color: gray;
+ }
+
+   .nav-title-desktop {
+    display: none;
+  }
+  .nav-title-tablet{
+    display: none;
+  }
+  .nav-title-mobile{
+    font-size:20px;
+    display: inline-block;
+  }
  
+}
+  
+  footer{
+    /* margin-top:.1rem; */
+    text-align:center;
+
+  }
   
 
-  
+/* }
+  @media (max-width: 992px){
+    
   }
+  @media (max-width: 1200px){
+    
+  }
+  @media (max-width: 1400px){
+    
+  } */
