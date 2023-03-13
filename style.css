@@ -327,6 +327,7 @@ p {
    @media (max-width: 600px){
     .gallery {
       width:40%;
+      height: 250px;
    }
 
    .main-gallery {
@@ -346,7 +347,9 @@ p {
     font-size:20px;
     display: inline-block;
   }
- 
+ .gallery img{
+  height: 180px;
+ }
 }
   
  
@@ -362,17 +365,20 @@ p {
   @media (max-width: 1400px){
     
   } */
-  @media (max-width: 340px){
+  @media (max-width: 372px){
     .gallery {
-      width:40%;
+      width:100%;
+      
+      margin: 10px 0;
    }
 
    .main-gallery {
     width:100%;
     height:390vh;
-    margin-top: 600px;
+    margin-top: 700px;
     background-color: gray;
  }
+
 
    .nav-title-desktop {
     display: none;
