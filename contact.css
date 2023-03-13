@@ -371,7 +371,8 @@ form textarea {
     
  
 }
-@media (max-width: 340px){
+   }
+@media (max-width: 372px){
 .contact {
 height: 180vh;
 
@@ -410,7 +411,5 @@ height: 180vh;
         font-size: 18px;
         border: 6px;
         border-radius: 10px;
-    
     }
-    
-}
+    }
