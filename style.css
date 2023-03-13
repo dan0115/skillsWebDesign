@@ -223,20 +223,12 @@ p {
 
  }
  hr{
-  width:50%;
-  border-width:10%;
+  border: 1px solid white;
  }
  
-.disabled li{
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-.disabled a{
-  opacity: 0.6;
-  cursor: not-allowed;
-}
+
 .main-gallery{
-  height: 210vh;
+  height: 230vh;
   background-image: url(try3.jpg);
   background-position: center;
   background-size: cover;
@@ -285,18 +277,16 @@ p {
 }
   
 
-  footer {
- text-align: center;
-    
-    color:white;
-    height: 10vh;
-  }
   .footer__para{
     text-align: center;
     padding-top: 5%;
     color:white;
     background-color: black;
-    height: 20vh;
+    height: 10vh;
+    margin:0;
+   
+    
+    
   }
   /* .nav-item{
     text-align: left !important;
@@ -305,7 +295,7 @@ p {
 
      /* -------------------BREAKPOINT TABLET MEDIA QUIRIES --------------------*/
 
-  @media (max-width: 768px){
+  @media (max-width: 930px){
     .nav-title-tablet{
       font-size:15px;
       display: inline-block;
@@ -325,8 +315,8 @@ p {
   .main-gallery {
    
    
-    margin-top: 270px;
-    height: 220vh;
+    margin-top: 400px;
+    height: 250vh;
     
  }
  
@@ -341,8 +331,8 @@ p {
 
    .main-gallery {
     width:100%;
-    height:330vh;
-    margin-top: 330px;
+    height:390vh;
+    margin-top: 450px;
     background-color: gray;
  }
 
@@ -359,11 +349,7 @@ p {
  
 }
   
-  footer{
-    /* margin-top:.1rem; */
-    text-align:center;
-
-  }
+ 
   
 
 /* }
@@ -376,3 +362,27 @@ p {
   @media (max-width: 1400px){
     
   } */
+  @media (max-width: 340px){
+    .gallery {
+      width:40%;
+   }
+
+   .main-gallery {
+    width:100%;
+    height:390vh;
+    margin-top: 600px;
+    background-color: gray;
+ }
+
+   .nav-title-desktop {
+    display: none;
+  }
+  .nav-title-tablet{
+    display: none;
+  }
+  .nav-title-mobile{
+    font-size:20px;
+    display: inline-block;
+  }
+ 
+}
