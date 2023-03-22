@@ -1,14 +1,6 @@
 body {
 
-    /* background-color: rgb(12, 10, 0); */
-    background-image: url(UoPVAO7eDGcaloocan-UCC.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
-    
-
-
+    background-color: rgb(12, 10, 0);
 }
 
 .form-container {
@@ -19,18 +11,17 @@ body {
 }
 
 .form {
-    background-color: white;
     margin-left: 50%;
     margin-right: 50%;
     width: 250px;
     height: 380px;
-    /* background: url(try3.jpg); */
+    background: url(/images/try3.jpg);
     background-size: cover;
     position: absolute;
     top: 100px;
     border-radius: 10px;
     padding: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
+    box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
 
 .form h2 {
@@ -38,45 +29,41 @@ body {
     font-family: 'Noto Sans Symbols', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color: black;
+    color: white;
     font-size: 22px;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
-
-
-
 }
 
 .form input {
     width: 240px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     border-top: none;
     border-right: none;
     border-left: none;
-    color: black;
+    color: white;
     font-size: 15px;
     letter-spacing: 1px;
     margin-top: 30px;
     font-family: sans-serif;
 }
 
-
 .form input:focus {
     outline: none;
 }
 
 ::placeholder {
-    color: black;
+    color: white;
     font-family: arial;
 }
 
 .button {
     width: 50%;
     height: 40px;
-    background: black;
+    background: #daa520;
     border-radius: 10px;
     border: none;
     margin-top: 30px;
@@ -84,22 +71,19 @@ body {
     font-family: fantasy;
     transition: 0.4s ease;
     opacity: .5;
-    box-shadow: black;
-    color:white;
+    box-shadow: 0 4px 8px 0 rgba(15, 11, 0, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
+    color: white;
     display: block;
-    margin:auto;
+    margin: auto;
     margin-top: 20px;
-
-
 
 }
 
 .button:hover {
-    background: black;
-    color: white;
+    background: goldenrod;
+    color: black;
     opacity: .9;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
-width: 100%;
+    width: 100%;
 }
 
 .button a {
@@ -108,21 +92,21 @@ width: 100%;
 }
 
 .button:hover a {
-    color: white;
+    color: black;
 }
 
 .form .link {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     padding-top: 20px;
     text-align: center;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 .form .link a {
     text-decoration: none;
-    color: gold;
+    color: goldenrod;
 
 }
 
@@ -132,9 +116,10 @@ img {
     position: absolute;
     top: -80px;
     left: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
+    box-shadow: 0 4px 8px 0 rgba(247, 182, 3, 0.973), 0 6px 20px 0 rgba(247, 182, 3, 0.973);
 }
-.change{
+
+.change {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -144,5 +129,7 @@ img {
 .change a {
     text-decoration: none;
 }
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&family=Roboto&display=swap');

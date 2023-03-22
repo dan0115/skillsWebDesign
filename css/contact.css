@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-image: url(/images/try3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand>img {
+  width: 75px;
+  height: 90px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-link::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: white;
+  display: block;
+  margin: auto;
+  transition: 0.5s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-title-desktop {
+  font-size: 20px;
+}
+
+.nav-title-mobile {
+  display: none;
+}
+
+.nav-title-tablet {
+  display: none;
+}
+
+
+.logo {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 100px;
+
+}
+
+.contact {
+  background-color: rgb(41, 39, 39);
+  height: 80vh;
+  padding: 5%;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.contact h2 {
+  font-size: 50px;
+  color: goldenrod;
+
+}
+
+.contact-left {
+  flex-basis: 35%;
+}
+
+.contact-left p {
+  margin-top: 35px;
+  color: goldenrod;
+}
+
+.contact-left p i {
+  margin-right: 15px;
+  color: goldenrod;
+  font-size: 25px;
+}
+
+.contact-left_icons a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 30px;
+  margin-right: 15px;
+  display: inline-block;
+
+
+}
+
+.contact-left_icons a:hover {
+  color: red;
+  transform: translateY(-5px);
+}
+
+.contact-btn {
+  display: block;
+  margin: 50px auto;
+  border: 1px solid;
+  padding: 14px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+
+  color: goldenrod;
+  width: fit-content;
+
+}
+
+.contact-btn:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.contact-btn.contact-btn--1 {
+  display: inline-block;
+}
+
+.contact-right {
+  flex-basis: 60%
+}
+
+.contact-right form {
+  width: 100%;
+  text-shadow: #d9d9d9;
+
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  background: black;
+  padding: 15px;
+  margin: 15px 0;
+  color: white;
+  font-size: 18px;
+  border: 6px;
+  border-radius: 10px;
+
+}
+
+.contact-btn.contact-btn--2 {
+  display: flex;
+  background-color: #312d2d;
+  font-size: 18px;
+}
+
+.contact-btn.contact-btn--2:hover {
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+.contact-left_icons a:nth-child(1) {
+  color: red;
+}
+
+.contact-left_icons a:nth-child(2) {
+  color: #4267B2;
+}
+
+.disabled li {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.disabled a {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.footer__para {
+  text-align: center;
+  padding-top: 5%;
+  color: white;
+  background-color: black;
+  height: 20vh;
+  margin: 0;
+}
+
+
+/* -------------------BREAKPOINT TABLET MEDIA QUIRIES --------------------*/
+
+@media (max-width: 930px) {
+  .nav-title-tablet {
+    font-size: 15px;
+    display: inline-block;
+
+  }
+
+  .nav-title-desktop {
+    display: none;
+  }
+
+  .nav-title-mobile {
+    display: none;
+  }
+
+  .contact h2 {
+    font-size: 30px;
+  }
+
+  .contact p {
+    font-size: 15px;
+  }
+
+}
+
+/* -------------------BREAKPOINT PHONE MEDIA QUIRIES --------------------*/
+
+
+@media (max-width: 600px) {
+  .gallery {
+    width: 40%;
+  }
+
+  .main-gallery {
+    width: 100%;
+    height: 390vh;
+    margin-top: 450px;
+    background-color: gray;
+  }
+
+  .nav-title-desktop {
+    display: none;
+  }
+
+  .nav-title-tablet {
+    display: none;
+  }
+
+  .nav-title-mobile {
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  .contact {
+    height: 120vh;
+
+
+  }
+}
+
+@media (max-width: 372px) {
+  .contact {
+    height: 180vh;
+
+  }
+
+  .contact-row {
+    display: inline-block;
+    flex-direction: row;
+
+  }
+
+  .contact-left {
+    flex-basis: 35%;
+  }
+
+  .contact-right {
+    flex-basis: 60%
+  }
+
+  .contact-right form {
+    width: 100%;
+    text-shadow: #d9d9d9;
+  }
+
+  form input,
+  form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: black;
+    padding: 15px;
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+    border: 6px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-title {
+    font-size: .9rem;
+  }
+}
