@@ -111,6 +111,7 @@ body {
 }
 
 img {
+    height:100px;
     border-radius: 100%;
     z-index: 1;
     position: absolute;
@@ -120,9 +121,8 @@ img {
 }
 
 .change {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+   display:block;
+   margin:auto;
 
 }
 
