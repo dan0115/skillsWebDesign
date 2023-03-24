@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-image: url(./try3.jpg);
+  background-image: url(try3.jpg) !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,7 +93,7 @@ body {
 /* Left and right column */
 .core {
   width: 25%;
-  background-image: url(/try3.jpg);
+  background-image: url(try3.jpg);
   margin-right: 4%;
   margin-left: 4%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.973), 0 6px 20px 0 rgba(0, 0, 0, 0.973);
